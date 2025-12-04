@@ -90,7 +90,7 @@ export class CodeEditor implements OnChanges, OnInit, OnDestroy, ControlValueAcc
   /** The editor's theme. */
   readonly theme = input<Theme>('light');
 
-  /** The editor's placecholder. */
+  /** The editor's place holder. */
   readonly placeholder = input('');
 
   /** Whether indent with Tab key. */
